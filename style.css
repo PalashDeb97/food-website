@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 samp{
     font-family: 'Montserrat', sans-serif;
@@ -37,14 +38,89 @@ samp{
 .bg-img{
     background-image: url(img/shapes/7.png);
     padding-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.About-part{
+.About-section{
     width: 50%;
 }
-.About-part img{
+.About-section img{
     width: 50%;
     margin-left: 100px;
 }
-.About-part p{
+.About-section p{
     padding-right: 100px;
+}
+.recipies-section{
+    text-align: center;  
+}
+.recipies-section h1{
+    font-size: 36px;
+    color: #575757;
+}
+.recipies-section p{
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 60px;
+    padding: 0px 341px;
+}
+.recipies-blog{
+    width: 35%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 0px 10px 37px -3px #8080807a;
+    padding: 20px;
+    border-radius: 26px;
+
+}
+.recipies-blog img{
+    width: 100%;
+}
+.recipies-blog h1{
+    font-size: 28px;
+}
+.recipies-blog p{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.section-center{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Followers-section{
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0px 10px 37px -3px #8080807a;
+    padding: 20px;
+    border-radius: 26px;
+
+}
+.Followers-section h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.Followers-section p{
+    font-size: 16px;
+}
+.Followers-section .center{
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 55px 0;
+}
+footer h1{
+    color: #FBA24F;
+    font-size: 30px;
+}
+footer samp{
+    color: #5B5B5B;
+}
+footer p{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 80px;
 }
