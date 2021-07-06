@@ -1,0 +1,50 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+samp{
+    font-family: 'Montserrat', sans-serif;
+}
+.display-flex{
+    display: flex;
+    margin-bottom: 100px;
+}
+.order-section{
+    margin-top: 145px;
+}
+.half-width{
+    padding-left: 42px;
+}
+.half-width h1{
+    font-size: 60px;
+    color: #575757;
+}
+.half-width h1 samp{
+    color: #FBA24F;
+}
+.half-width p{
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 60px;
+}
+.order-button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(45deg, #FBA24F, #FF1E1E);
+    padding: 18px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+.bg-img{
+    background-image: url(img/shapes/7.png);
+    padding-top: 60px;
+}
+.About-part{
+    width: 50%;
+}
+.About-part img{
+    width: 50%;
+    margin-left: 100px;
+}
+.About-part p{
+    padding-right: 100px;
+}
